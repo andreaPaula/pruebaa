@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: pruebaLrv51
+        psr4_prefix: pruebaLrv51
+        src_path: app
