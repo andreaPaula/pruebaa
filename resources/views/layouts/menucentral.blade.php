@@ -1,187 +1,99 @@
 ﻿            <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Dashboard</h1>
+                    <h2 class="page-header">Panel principal</h2>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-comments fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">26</div>
-                                    <div>New Comments!</div>
-                                </div>
-                            </div>
-                        </div>
+
+         <div class="row" id="prue">
+                <div class="col-md-3 col-sm-6 column">
+                    <div class="panel panel-primary " >
                         <a href="#">
-                            <div class="panel-footer">
-                                <span class="pull-left">View Details</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
+                            <div class="panel-heading">
+                                <div class="row ">
+                                    <div class="col-md-12 text-center">
+                                        <i class="fa fa-clock-o fa-4x"></i>
+                                        <div class="clearfix"></div>
+                                        <span class="pull-center">View Details</span>
+                                        <span class="pull-center"><i class="fa fa-arrow-circle-right"></i></span>
+                                         <div class="clearfix"></div>
+                                        <span class="pull-center">View Details</span>
+                                        <span class="pull-center"><i class="fa fa-arrow-circle-right"></i></span>
+                                         <div class="clearfix"></div>
+                                       </div>
+                                </div>
                             </div>
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-green">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-tasks fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">12</div>
-                                    <div>New Tasks!</div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-md-3 col-sm-6 column">
+                    <div class="panel panel-primary " >
                         <a href="#">
-                            <div class="panel-footer">
-                                <span class="pull-left">View Details</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
+                            <div class="panel-heading">
+                                <div class="row ">
+                                    <div class="col-md-12 text-center">
+                                        <i class="fa fa-clock-o fa-4x"></i>
+                                        <div class="clearfix"></div>
+                                        <span class="pull-center">View Details</span>
+                                        <span class="pull-center"><i class="fa fa-arrow-circle-right"></i></span>
+                                         <div class="clearfix"></div>
+                                       </div>
+                                </div>
                             </div>
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-yellow">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-shopping-cart fa-5x"></i>
+                <div class="col-md-3 col-sm-6 column">
+                    <div class="panel panel-primary " >
+                        <a href="{{url('turnos/consultar')}}">
+                            <div class="panel-heading">
+                                <div class="row ">
+                                    <div class="col-md-12 text-center">
+                                        <i class="fa fa-angellist fa-4x"></i>
+
+                                        <div>Turnos</div>
+                                        <div>Turnos</div>
+                                        <div>Turnos</div>
+                                    </div>
                                 </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">124</div>
-                                    <div>New Orders!</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <div class="panel-footer">
-                                <span class="pull-left">View Details</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
                             </div>
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-red">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-support fa-5x"></i>
+                <div class="col-md-3 col-sm-6 column">
+                    <div class="panel panel-primary " >
+                        <a href="{{url('turnos/consultar')}}">
+                            <div class="panel-heading">
+                                <div class="row ">
+                                    <div class="col-md-12 text-center">
+                                        <i class="fa fa-clock-o fa-4x"></i>
+
+                                        <div>Turnos</div>
+                                        <div>Turnos</div>
+                                        <div>Turnos</div>
+                                    </div>
                                 </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">13</div>
-                                    <div>Support Tickets!</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <div class="panel-footer">
-                                <span class="pull-left">View Details</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
                             </div>
                         </a>
                     </div>
                 </div>
-            </div>
+                <div class="col-md-3 col-sm-6 column">
+                    <div class="panel panel-primary " >
+                        <a href="{{url('turnos/consultar')}}">
+                            <div class="panel-heading">
+                                <div class="row ">
+                                    <div class="col-md-12 text-center">
+                                        <i class="fa fa-clock-o fa-4x"></i>
 
-   <div class="row" id="prue">
-    <div class="col-md-12">
-            <div class="col-md-3 col-sm-6 column">
-                <div class="panel panel-primary" >
-                    <a href="{{url('turnos/consultar')}}">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <i class="fa fa-clock-o fa-4x"></i>
-                                </div>
-                                <div class="col-xs-10 text-right">
-                                    <div>Turnos</div>
+                                        <div>Turnos</div>
+                                        <div>Turnos</div>
+                                        <div>Turnos</div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 column">
-                <div class="panel panel-primary " >
-                    <a href="{{url('turnos/consultar')}}">
-                        <div class="panel-heading">
-                            <div class="row ">
-                                <div class="col-md-12 text-center">
-                                    <i class="fa fa-clock-o fa-4x"></i>
-
-                                    <div>Turnos</div>
-                                    <div>Turnos</div>
-                                    <div>Turnos</div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 column">
-                <div class="panel panel-primary " >
-                    <a href="{{url('turnos/consultar')}}">
-                        <div class="panel-heading">
-                            <div class="row ">
-                                <div class="col-md-12 text-center">
-                                    <i class="fa fa-angellist fa-4x"></i>
-
-                                    <div>Turnos</div>
-                                    <div>Turnos</div>
-                                    <div>Turnos</div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 column">
-                <div class="panel panel-primary " >
-                    <a href="{{url('turnos/consultar')}}">
-                        <div class="panel-heading">
-                            <div class="row ">
-                                <div class="col-md-12 text-center">
-                                    <i class="fa fa-clock-o fa-4x"></i>
-
-                                    <div>Turnos</div>
-                                    <div>Turnos</div>
-                                    <div>Turnos</div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 column">
-                <div class="panel panel-primary " >
-                    <a href="{{url('turnos/consultar')}}">
-                        <div class="panel-heading">
-                            <div class="row ">
-                                <div class="col-md-12 text-center">
-                                    <i class="fa fa-clock-o fa-4x"></i>
-
-                                    <div>Turnos</div>
-                                    <div>Turnos</div>
-                                    <div>Turnos</div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-    </div>
-</div>
+           
+        </div>

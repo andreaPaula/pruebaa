@@ -252,15 +252,15 @@ table.dataTable thead .sorting:after {
   color: #3d8b3d;
 }
 .panel-red {
-  border-color: #d9534f;
+  border-color: #82231C;
 }
 .panel-red > .panel-heading {
   border-color: #d9534f;
   color: white;
-  background-color: #d9534f;
+  background-color: #82231C;
 }
 .panel-red > a {
-  color: #d9534f;
+  color: #82231C;
 }
 .panel-red > a:hover {
   color: #b52b27;
