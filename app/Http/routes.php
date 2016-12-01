@@ -11,6 +11,10 @@
 |post,get,put,delete
 */
 
+Route::get('/', function()
+{
+    return view('index');
+});
 Route::resource('usuario','UsuarioController');
 
 /*

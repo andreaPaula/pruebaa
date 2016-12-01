@@ -1,7 +1,6 @@
-@extends('layouts.principal')
+﻿@extends('layouts.principal')
 
 @section('title', 'index')
-
 
 @section('content')
     @include('layouts.menucentral')
