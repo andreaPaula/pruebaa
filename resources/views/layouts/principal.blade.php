@@ -17,7 +17,7 @@
     <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
     <link media="all" type="text/css" rel="stylesheet" href="http://bootsnipp.com/css/fullscreen.css">
         <title>Blanco y negro - @yield('titulo','Inicio')</title>
-</head>
+    </head>
     <body>
  
         <div class="container">
