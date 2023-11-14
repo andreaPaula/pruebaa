@@ -4,7 +4,6 @@ namespace pruebaLrv51\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use pruebaLrv51\Http\Requests;
 use pruebaLrv51\Http\Controllers\Controller;
 
 class UsuarioController extends Controller
