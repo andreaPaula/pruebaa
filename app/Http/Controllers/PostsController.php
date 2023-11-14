@@ -1,7 +1,7 @@
 <?php
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
+use pruebaLrv51\Http\Controllers\Controller;
 use App\Http\Requests\Api\CreatePostRequest;
 use App\Http\Requests\Api\UpdatePostRequest;
 use App\Repositories\PostsRepository;
